@@ -2,8 +2,8 @@
 
 Public notes and examples for using Adobe Illustrator MCP server tools.
 
-This work uses Illustrator tools from the Adobe MCP server, with automation
-handled through Codex.
+This workflow has been used for AI-run automated coloring: Illustrator tools
+come from the Adobe MCP server, and automation is handled through Codex.
 
 ## Contents
 
