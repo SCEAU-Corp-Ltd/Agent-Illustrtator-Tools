@@ -106,6 +106,13 @@ Use tools 35-43 as an implementation sequence, not as isolated commands:
 
 The practical workflow lives in `workflows/illustrator-recolor.md`.
 
+## Menu Commands
+
+Some Illustrator actions may not have a dedicated MCP function. For those gaps,
+use `docs/illustrator-menu-command-links.md` as a public command-value
+reference and verify version, document, and selection requirements before
+running a command.
+
 ## Attribute Notes
 
 - `?` means optional.

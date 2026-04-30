@@ -7,6 +7,7 @@ tools with AI-assisted workflows.
 
 - Generic workflow notes.
 - Public Adobe documentation links.
+- Public third-party reference data with attribution.
 - Redacted examples.
 - Small local test utilities that do not require private credentials.
 - Screenshots from public documentation or fully redacted local demos.
@@ -20,6 +21,8 @@ tools with AI-assisted workflows.
 - Private screenshots, document thumbnails, file paths, document titles, or
   visible local account details.
 - Machine-specific setup notes, local profiles, sessions, logs, and caches.
+- Private OpenClaw workspace names, hostnames, agent names, gateway details, and
+  schedule logs.
 
 ## Working With Real Projects
 
@@ -37,3 +40,7 @@ git diff --cached --name-only
 
 Then search the staged content for tokens, keys, private paths, and project
 names before pushing.
+
+Public OpenClaw setup docs should stay portable: name the required components,
+verification steps, and safety checks, but leave real connection values in the
+user's private OpenClaw configuration.

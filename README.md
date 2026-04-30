@@ -16,16 +16,24 @@ Beta feature for connecting desktop AI tools, including Codex, to Illustrator
 |---|---|
 | `CONTRIBUTING.md` | Public contribution rules. |
 | `SECURITY.md` | How to report safety or disclosure issues. |
+| `data/` | Public reference data used by the docs. |
 | `docs/ai-tool-connections.md` | Notes for Codex, Claude Code, Cursor, and other AI tools. |
 | `docs/adobe-illustrator-mcp-tools.md` | Current Illustrator MCP function snapshot. |
+| `docs/illustrator-menu-command-links.md` | Searchable Illustrator menu command value index. |
+| `docs/openclaw-public-setup.md` | Generic OpenClaw setup guide for this repo. |
+| `docs/openclaw-automation-blueprints.md` | Public OpenClaw automation ideas and prompt starters. |
 | `docs/public-boundary.md` | What belongs here and what stays private. |
 | `tools/listener-playground/` | Local HTTP listener for MCP/MCPO event experiments. |
+| `tools/build-menu-command-links.py` | Rebuilds the generated menu command index. |
 | `workflows/illustrator-recolor.md` | Practical recolor workflow using appearance and QA tools. |
 | `workflows/mcp-listener-environment.md` | How to run and reason about the listener playground. |
 
 ## Use
 
 Use the docs as generic operating references for MCP server tools.
+
+For OpenClaw, start with `docs/openclaw-public-setup.md`, then use
+`docs/openclaw-automation-blueprints.md` to choose safe first automations.
 
 For other AI tools, including Claude Code, Cursor, or another MCP-compatible
 client, use the same Adobe MCP server concept and ask that AI tool to adapt the
@@ -36,6 +44,8 @@ workflow and connection steps to its own MCP configuration format.
 - AI-assisted Illustrator automation
 - Adobe MCP server tools exposed by Illustrator (Beta)
 - Codex-driven tool calls and workflow orchestration
+- OpenClaw-style public setup and automation patterns
+- Illustrator menu command reference data
 - Automated coloring and recoloring examples
 
 ## Adobe MCP Docs
@@ -61,3 +71,14 @@ For recoloring work, use `workflows/illustrator-recolor.md`. It turns
 into a repeatable sequence.
 
 For MCP/MCPO listener experiments, use `workflows/mcp-listener-environment.md`.
+
+## Menu Command Reference
+
+The repo includes a public Illustrator menu command reference copied from the
+MIT-licensed AiCommandPalette data set:
+
+- `data/illustrator-menu-commands.csv`
+- `docs/illustrator-menu-command-links.md`
+
+Use the command `value` fields only after checking document, selection, and
+version requirements.
