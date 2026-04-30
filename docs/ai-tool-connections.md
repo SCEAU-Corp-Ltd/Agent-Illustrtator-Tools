@@ -13,7 +13,7 @@ shape.
 | AI tool | Public note |
 |---|---|
 | Codex | Use the Adobe MCP server connection and ask Codex to adapt the workflow into Codex-compatible tool calls. |
-| OpenClaw | Point an OpenClaw workspace at this repo, configure MCP servers privately, and keep tokens out of git. Start with `docs/openclaw-public-setup.md`. |
+| OpenClaw | Point an OpenClaw workspace at this repo, configure MCP servers privately, and keep tokens out of git. Start with `docs/openclaw-public-setup.md`; Codex-compatible agents can use `skills/openclaw/SKILL.md` as `$openclaw`. |
 | Claude Code | Adobe documents Claude Code as a supported desktop AI tool path. Ask Claude Code to adapt the workflow to its MCP command format. |
 | Cursor | Adobe documents Cursor as a supported desktop AI tool path. Ask Cursor to adapt the workflow to its MCP settings format. |
 | Other tools | Use the Adobe MCP server URL/key pattern only if the tool supports compatible MCP configuration. Ask the AI tool to adjust the workflow accordingly. |

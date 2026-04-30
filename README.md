@@ -23,6 +23,7 @@ Beta feature for connecting desktop AI tools, including Codex, to Illustrator
 | `docs/openclaw-public-setup.md` | Generic OpenClaw setup guide for this repo. |
 | `docs/openclaw-automation-blueprints.md` | Public OpenClaw automation ideas and prompt starters. |
 | `docs/public-boundary.md` | What belongs here and what stays private. |
+| `skills/openclaw/SKILL.md` | Codex skill for public-safe OpenClaw workflows. |
 | `tools/listener-playground/` | Local HTTP listener for MCP/MCPO event experiments. |
 | `tools/build-menu-command-links.py` | Rebuilds the generated menu command index. |
 | `workflows/illustrator-recolor.md` | Practical recolor workflow using appearance and QA tools. |
@@ -34,6 +35,8 @@ Use the docs as generic operating references for MCP server tools.
 
 For OpenClaw, start with `docs/openclaw-public-setup.md`, then use
 `docs/openclaw-automation-blueprints.md` to choose safe first automations.
+Codex-compatible agents can also invoke `skills/openclaw/SKILL.md` as
+`$openclaw`.
 
 For other AI tools, including Claude Code, Cursor, or another MCP-compatible
 client, use the same Adobe MCP server concept and ask that AI tool to adapt the
