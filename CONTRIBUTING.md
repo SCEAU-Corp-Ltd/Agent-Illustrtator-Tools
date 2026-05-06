@@ -25,14 +25,3 @@ Do not contribute:
 For Claude Code, Cursor, Codex, or another AI client, keep the repo guidance
 generic and ask the AI tool to adapt the workflow to its own MCP configuration
 format.
-
-## Finishing changes
-
-When edits are ready for **public** GitHub and contain nothing sensitive below:
-**commit with a clear message and push** to the default branch (usually `main`),
-unless a maintainer directs otherwise.
-
-**Do not push** (keep changes local only, revert them, or follow maintainer
-instructions) when anything might disclose **private** material—including paths,
-keys, client or internal project cues—or when content is **even loosely tied**
-to non-public people, organizations, or workflows. Prefer omission over guessing.
